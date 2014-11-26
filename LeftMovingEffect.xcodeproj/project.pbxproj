@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAD41741A25FB4400C3CAB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAD41731A25FB4400C3CAB0 /* main.m */; };
+		EFAD41771A25FB4400C3CAB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAD41761A25FB4400C3CAB0 /* AppDelegate.m */; };
+		EFAD417A1A25FB4400C3CAB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAD41791A25FB4400C3CAB0 /* ViewController.m */; };
+		EFAD417D1A25FB4400C3CAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD417B1A25FB4400C3CAB0 /* Main.storyboard */; };
+		EFAD417F1A25FB4400C3CAB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAD417E1A25FB4400C3CAB0 /* Images.xcassets */; };
+		EFAD41821A25FB4400C3CAB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFAD41801A25FB4400C3CAB0 /* LaunchScreen.xib */; };
+		EFAD418E1A25FB4500C3CAB0 /* LeftMovingEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAD418D1A25FB4500C3CAB0 /* LeftMovingEffectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAD41881A25FB4500C3CAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAD41661A25FB4400C3CAB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAD416D1A25FB4400C3CAB0;
+			remoteInfo = LeftMovingEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFAD416E1A25FB4400C3CAB0 /* LeftMovingEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftMovingEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD41721A25FB4400C3CAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD41731A25FB4400C3CAB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFAD41751A25FB4400C3CAB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFAD41761A25FB4400C3CAB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFAD41781A25FB4400C3CAB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFAD41791A25FB4400C3CAB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFAD417C1A25FB4400C3CAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAD417E1A25FB4400C3CAB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFAD41811A25FB4400C3CAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFAD41871A25FB4500C3CAB0 /* LeftMovingEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftMovingEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD418C1A25FB4500C3CAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD418D1A25FB4500C3CAB0 /* LeftMovingEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftMovingEffectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAD416B1A25FB4400C3CAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD41841A25FB4500C3CAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAD41651A25FB4400C3CAB0 = {
+			isa = PBXGroup;
+			children = (
+				EFAD41701A25FB4400C3CAB0 /* LeftMovingEffect */,
+				EFAD418A1A25FB4500C3CAB0 /* LeftMovingEffectTests */,
+				EFAD416F1A25FB4400C3CAB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAD416F1A25FB4400C3CAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD416E1A25FB4400C3CAB0 /* LeftMovingEffect.app */,
+				EFAD41871A25FB4500C3CAB0 /* LeftMovingEffectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAD41701A25FB4400C3CAB0 /* LeftMovingEffect */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD41751A25FB4400C3CAB0 /* AppDelegate.h */,
+				EFAD41761A25FB4400C3CAB0 /* AppDelegate.m */,
+				EFAD41781A25FB4400C3CAB0 /* ViewController.h */,
+				EFAD41791A25FB4400C3CAB0 /* ViewController.m */,
+				EFAD417B1A25FB4400C3CAB0 /* Main.storyboard */,
+				EFAD417E1A25FB4400C3CAB0 /* Images.xcassets */,
+				EFAD41801A25FB4400C3CAB0 /* LaunchScreen.xib */,
+				EFAD41711A25FB4400C3CAB0 /* Supporting Files */,
+			);
+			path = LeftMovingEffect;
+			sourceTree = "<group>";
+		};
+		EFAD41711A25FB4400C3CAB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD41721A25FB4400C3CAB0 /* Info.plist */,
+				EFAD41731A25FB4400C3CAB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFAD418A1A25FB4500C3CAB0 /* LeftMovingEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD418D1A25FB4500C3CAB0 /* LeftMovingEffectTests.m */,
+				EFAD418B1A25FB4500C3CAB0 /* Supporting Files */,
+			);
+			path = LeftMovingEffectTests;
+			sourceTree = "<group>";
+		};
+		EFAD418B1A25FB4500C3CAB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD418C1A25FB4500C3CAB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAD416D1A25FB4400C3CAB0 /* LeftMovingEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD41911A25FB4500C3CAB0 /* Build configuration list for PBXNativeTarget "LeftMovingEffect" */;
+			buildPhases = (
+				EFAD416A1A25FB4400C3CAB0 /* Sources */,
+				EFAD416B1A25FB4400C3CAB0 /* Frameworks */,
+				EFAD416C1A25FB4400C3CAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeftMovingEffect;
+			productName = LeftMovingEffect;
+			productReference = EFAD416E1A25FB4400C3CAB0 /* LeftMovingEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAD41861A25FB4500C3CAB0 /* LeftMovingEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD41941A25FB4500C3CAB0 /* Build configuration list for PBXNativeTarget "LeftMovingEffectTests" */;
+			buildPhases = (
+				EFAD41831A25FB4500C3CAB0 /* Sources */,
+				EFAD41841A25FB4500C3CAB0 /* Frameworks */,
+				EFAD41851A25FB4500C3CAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAD41891A25FB4500C3CAB0 /* PBXTargetDependency */,
+			);
+			name = LeftMovingEffectTests;
+			productName = LeftMovingEffectTests;
+			productReference = EFAD41871A25FB4500C3CAB0 /* LeftMovingEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAD41661A25FB4400C3CAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = retix;
+				TargetAttributes = {
+					EFAD416D1A25FB4400C3CAB0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EFAD41861A25FB4500C3CAB0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EFAD416D1A25FB4400C3CAB0;
+					};
+				};
+			};
+			buildConfigurationList = EFAD41691A25FB4400C3CAB0 /* Build configuration list for PBXProject "LeftMovingEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAD41651A25FB4400C3CAB0;
+			productRefGroup = EFAD416F1A25FB4400C3CAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAD416D1A25FB4400C3CAB0 /* LeftMovingEffect */,
+				EFAD41861A25FB4500C3CAB0 /* LeftMovingEffectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAD416C1A25FB4400C3CAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD417D1A25FB4400C3CAB0 /* Main.storyboard in Resources */,
+				EFAD41821A25FB4400C3CAB0 /* LaunchScreen.xib in Resources */,
+				EFAD417F1A25FB4400C3CAB0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD41851A25FB4500C3CAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAD416A1A25FB4400C3CAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD417A1A25FB4400C3CAB0 /* ViewController.m in Sources */,
+				EFAD41771A25FB4400C3CAB0 /* AppDelegate.m in Sources */,
+				EFAD41741A25FB4400C3CAB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD41831A25FB4500C3CAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD418E1A25FB4500C3CAB0 /* LeftMovingEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAD41891A25FB4500C3CAB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAD416D1A25FB4400C3CAB0 /* LeftMovingEffect */;
+			targetProxy = EFAD41881A25FB4500C3CAB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAD417B1A25FB4400C3CAB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD417C1A25FB4400C3CAB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAD41801A25FB4400C3CAB0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD41811A25FB4400C3CAB0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAD418F1A25FB4500C3CAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFAD41901A25FB4500C3CAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAD41921A25FB4500C3CAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftMovingEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFAD41931A25FB4500C3CAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftMovingEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFAD41951A25FB4500C3CAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeftMovingEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftMovingEffect.app/LeftMovingEffect";
+			};
+			name = Debug;
+		};
+		EFAD41961A25FB4500C3CAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeftMovingEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftMovingEffect.app/LeftMovingEffect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAD41691A25FB4400C3CAB0 /* Build configuration list for PBXProject "LeftMovingEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD418F1A25FB4500C3CAB0 /* Debug */,
+				EFAD41901A25FB4500C3CAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAD41911A25FB4500C3CAB0 /* Build configuration list for PBXNativeTarget "LeftMovingEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD41921A25FB4500C3CAB0 /* Debug */,
+				EFAD41931A25FB4500C3CAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFAD41941A25FB4500C3CAB0 /* Build configuration list for PBXNativeTarget "LeftMovingEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD41951A25FB4500C3CAB0 /* Debug */,
+				EFAD41961A25FB4500C3CAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAD41661A25FB4400C3CAB0 /* Project object */;
+}
