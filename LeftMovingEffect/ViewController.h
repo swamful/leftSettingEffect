@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PanGestureHandler.h"
+#import "SettingMenuView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SettingMenuViewDelegate>
 
+@property (nonatomic) UIView *contentsView;
+@property (nonatomic) SettingMenuView *settingMenuView;
+@property (nonatomic) PanGestureHandler *panHandler;
 
 @end
 

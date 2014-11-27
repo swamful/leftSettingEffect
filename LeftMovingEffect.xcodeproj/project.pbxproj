@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF96B27E1A27601700DA7BE1 /* PanGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF96B27B1A27601700DA7BE1 /* PanGestureHandler.m */; };
+		EF96B27F1A27601700DA7BE1 /* SettingMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF96B27D1A27601700DA7BE1 /* SettingMenuView.m */; };
 		EFAD41741A25FB4400C3CAB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAD41731A25FB4400C3CAB0 /* main.m */; };
 		EFAD41771A25FB4400C3CAB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAD41761A25FB4400C3CAB0 /* AppDelegate.m */; };
 		EFAD417A1A25FB4400C3CAB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAD41791A25FB4400C3CAB0 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF96B27A1A27601700DA7BE1 /* PanGestureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureHandler.h; sourceTree = "<group>"; };
+		EF96B27B1A27601700DA7BE1 /* PanGestureHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureHandler.m; sourceTree = "<group>"; };
+		EF96B27C1A27601700DA7BE1 /* SettingMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingMenuView.h; sourceTree = "<group>"; };
+		EF96B27D1A27601700DA7BE1 /* SettingMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingMenuView.m; sourceTree = "<group>"; };
 		EFAD416E1A25FB4400C3CAB0 /* LeftMovingEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftMovingEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAD41721A25FB4400C3CAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFAD41731A25FB4400C3CAB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +87,10 @@
 		EFAD41701A25FB4400C3CAB0 /* LeftMovingEffect */ = {
 			isa = PBXGroup;
 			children = (
+				EF96B27A1A27601700DA7BE1 /* PanGestureHandler.h */,
+				EF96B27B1A27601700DA7BE1 /* PanGestureHandler.m */,
+				EF96B27C1A27601700DA7BE1 /* SettingMenuView.h */,
+				EF96B27D1A27601700DA7BE1 /* SettingMenuView.m */,
 				EFAD41751A25FB4400C3CAB0 /* AppDelegate.h */,
 				EFAD41761A25FB4400C3CAB0 /* AppDelegate.m */,
 				EFAD41781A25FB4400C3CAB0 /* ViewController.h */,
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFAD417A1A25FB4400C3CAB0 /* ViewController.m in Sources */,
+				EF96B27F1A27601700DA7BE1 /* SettingMenuView.m in Sources */,
 				EFAD41771A25FB4400C3CAB0 /* AppDelegate.m in Sources */,
+				EF96B27E1A27601700DA7BE1 /* PanGestureHandler.m in Sources */,
 				EFAD41741A25FB4400C3CAB0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +355,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LeftMovingEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +367,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LeftMovingEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +428,7 @@
 				EFAD41931A25FB4500C3CAB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFAD41941A25FB4500C3CAB0 /* Build configuration list for PBXNativeTarget "LeftMovingEffectTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				EFAD41961A25FB4500C3CAB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
